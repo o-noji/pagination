@@ -1,0 +1,8 @@
+.album__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  > div {
+    width: calc(320 / 1000 * 100%);
+  }
+}
